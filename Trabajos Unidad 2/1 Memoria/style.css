@@ -1,0 +1,77 @@
+/*Etiqueta, body seleccionar view (Word crap) para ver el código, Se ingresa a página cssgradient.io que servirá para generar códigos de colores*/
+/*Etiqueta: Fuente o letras*/
+body{
+    background: rgb(116,80,115); /*se le agrega color al fondo*/
+    background: linear-gradient(90deg, rgba(116,80,115,1) 0%, rgba(0,61,255,1) 0%, rgba(89,0,255,1) 50%, rgba(255,0,0,1) 100%); /*se le agrega color al fondo*/
+    font-family: sans-serif; /*Tipo de Letra*/
+    color: white; /*Letra de color Blanco*/
+}
+/*CONTENEDOR 2 secciones*/
+/*Etiqueta de las 2 secciones*/
+main{
+    border: 1 px solid black; /*se le agrega un borde de 1 pixel de color negro*/
+    width: 730px; /* se le agrega un ancho de 730 pixeles*/
+    margin: 100px auto 50px; /*Margen superior de 30px */
+    display: flex; /*separa las secciones*/
+    align-items: center; /*centra el cuadro de la sección 2*/
+
+}
+/*Etiqueta:Fondo sección 1 = cuadro 1*/
+.seccion1{
+    background-color: rgba(255,255,255,0.2); /*se le agrega color al fondo*/
+    padding: 0 10px 10px 10px; /*se le agrega un padding*/
+    border-radius: 8px; /*contorno con bordos redondos con 8px*/
+}
+/*Contiene el nombre Juego de Memoria, el cual se centrará con text-align: center*/
+
+
+
+/*Etiqueta: Juego de memoria*/
+h1{
+    text-align: center; /*se centra el texto*/
+}
+
+/*BOTON: se le agrega un botón, se le asigna un tamaño y un color*/
+/*Etiqueta:*/
+button{
+    height: 100px; /*se le agrega al botón una altura de 100 pixeles*/
+    width: 100px; /*se le agrega un ancho de 100 pixeles*/
+    font-size: 40px; /*Tamaño de la fuente o letra*/
+    color: white; /*color de la fuente*/
+    font-weight: bold; /*Se remarca la letra*/
+}
+/*Etiqueta:Mouse*/
+button:hover{
+    cursor: pointer; /*se le cambia la forma del cursor*/
+}
+/*se le asigna un color y un tamaño a las sección 2 que contiene los datos de la partida*/
+/*Etiqueta: Seccion 2 = cuadro 2*/
+.seccion2{
+    background-color: rgba(255,255,255,0.2); /*se le agrega un color de fondo(blanco)*/
+    border-top-right-radius: 8px; /*Hacer bordos redondeados con 8 pixeles de la parte superior derecha*/
+    border-bottom-right-radius: 8px; /*Hacer bordos redondeados con 8 pixeles de la parte inferior derecha*/
+    width: 250px; /*Se le agrega un ancho de 250 pixeles*/
+    height: 400px; /*Se le agrega una altura de 400 pixeles*/
+    padding: 0 20px;
+}
+/*se les asignara bordes a las estadísticas con un tamaño*/
+/*Etiqueta:*/
+.estadisticas{
+    border: 1px solid white; /*se les agrega un borde solido blanco a las estadísticas*/
+    height: 105px; /*se le da una altura al borde*/
+    border-radius: 8px; /*se le da un borde de radio de 8 pixeles*/
+    padding: 8px 20px; /*se le agrega un pading */
+    box-sizing: border-box; /*el tamaño de la caja es igual a de la border box*/
+}
+/*Etiqueta:cCon datos del programador*/
+footer{
+    text-align: center; /*se centran los tados del programador*/
+}
+/*Etiqueta:*/
+a{
+    text-decoration: none; /* se le quitan las decoraciones a la etiqueta a*/
+}
+/*Se usa para darle un tamaño adecuado a las imagenes*/
+img{
+    width: 80%;
+}
