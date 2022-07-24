@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo">JUEGO DEL ELEVADOR</h1>
+    <h1 id="sub">Bruno Gonzalez Climaco</h1>
+
+    <main>
+
+        <section>
+
+            <div id="parte1">
+
+                <span id="instrucciones">Instrucciones:<br><br>Hay 5 pisos y una planta baja, deberas bajar a la mayor cantidad de personas que puedas, pierdes si algun piso llega a 5 personas<br>Mueves el elevador con:<br> *w(arriba)<br>*s(abajo)<br>*e(interactuar)<br>La unica regla que hay, es que la cantidad de personas que vas a subir debe ser menor o igual a la capacidad sobrante del elevador<br>¿Cual sera la capacidad del elevador?<br></span>
+                <br>
+                <button id="btn1" class="btn">5</button>
+                <button id="btn2" class="btn">8</button>
+                <button id="btn3" class="btn">12</button>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <br>
+            <br>
+
+            <div class="elevador">
+
+                <div id="piso5"><span class="cant" id="p5">0</span></div>
+                <div id="piso4"><span class="cant" id="p4">0</span></div>
+                <div id="piso3"><span class="cant" id="p3">0</span></div>
+                <div id="piso2"><span class="cant" id="p2">0</span></div>
+                <div id="piso1"><span class="cant" id="p1">0</span></div>
+                <div id="piso0"><span class="cant" id="p0">Puntaje: 0</span></div>
+                <div id="e"><span id="cap">0</span></div>
+
+            </div>
+
+        </section>
+
+        <script src="main.js"></script>
+
+    </main>
+    
+</body>
+</html>
